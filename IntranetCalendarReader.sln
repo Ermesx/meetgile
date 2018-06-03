@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntranetCalendarReader.Console", "src\IntranetCalendarReader.Console\IntranetCalendarReader.Console.csproj", "{28C4FF0E-72E6-4EBD-A9FF-9CB7FD176BBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntranetCalendar.Provider.Test", "test\IntranetCalendar.Provider.Test\IntranetCalendar.Provider.Test.csproj", "{6E8FA435-FCEB-40F0-89CB-14442F9E4DA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meetgile.Domain", "src\Meetgile.Domain\Meetgile.Domain.csproj", "{832C76EF-E02C-4D1C-BBD2-D12801CEEFE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntranetCalendar.Provider", "src\IntranetCalendar.Provider\IntranetCalendar.Provider.csproj", "{3CC81E6B-CF1B-4B2B-8A67-96DAD899BFAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntranetCalendar.Infrastructure", "src\IntranetCalendar.Infrastructure\IntranetCalendar.Infrastructure.csproj", "{380301E2-E3A1-4524-8A4F-E5755ACB6AAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{40A20CC7-D495-479A-A6F5-BBB32280CF42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetgile.Domain.Test", "test\Meetgile.Domain.Test\Meetgile.Domain.Test.csproj", "{1985D6FD-971A-42A6-844D-A3E92CBF3940}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28C4FF0E-72E6-4EBD-A9FF-9CB7FD176BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C4FF0E-72E6-4EBD-A9FF-9CB7FD176BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C4FF0E-72E6-4EBD-A9FF-9CB7FD176BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C4FF0E-72E6-4EBD-A9FF-9CB7FD176BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E8FA435-FCEB-40F0-89CB-14442F9E4DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E8FA435-FCEB-40F0-89CB-14442F9E4DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E8FA435-FCEB-40F0-89CB-14442F9E4DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E8FA435-FCEB-40F0-89CB-14442F9E4DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832C76EF-E02C-4D1C-BBD2-D12801CEEFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832C76EF-E02C-4D1C-BBD2-D12801CEEFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832C76EF-E02C-4D1C-BBD2-D12801CEEFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832C76EF-E02C-4D1C-BBD2-D12801CEEFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CC81E6B-CF1B-4B2B-8A67-96DAD899BFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC81E6B-CF1B-4B2B-8A67-96DAD899BFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC81E6B-CF1B-4B2B-8A67-96DAD899BFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC81E6B-CF1B-4B2B-8A67-96DAD899BFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380301E2-E3A1-4524-8A4F-E5755ACB6AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380301E2-E3A1-4524-8A4F-E5755ACB6AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380301E2-E3A1-4524-8A4F-E5755ACB6AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380301E2-E3A1-4524-8A4F-E5755ACB6AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1985D6FD-971A-42A6-844D-A3E92CBF3940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1985D6FD-971A-42A6-844D-A3E92CBF3940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1985D6FD-971A-42A6-844D-A3E92CBF3940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1985D6FD-971A-42A6-844D-A3E92CBF3940}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28C4FF0E-72E6-4EBD-A9FF-9CB7FD176BBA} = {40A20CC7-D495-479A-A6F5-BBB32280CF42}
+		{6E8FA435-FCEB-40F0-89CB-14442F9E4DA7} = {40A20CC7-D495-479A-A6F5-BBB32280CF42}
+		{1985D6FD-971A-42A6-844D-A3E92CBF3940} = {40A20CC7-D495-479A-A6F5-BBB32280CF42}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0FA75CC-8602-4A18-97EC-DE56894F52CF}
+	EndGlobalSection
+EndGlobal

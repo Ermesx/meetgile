@@ -1,0 +1,228 @@
+﻿1|#||4|25928|updatePanel|ctrl_1535_upR|
+<table cellspacing="0" cellpadding="2" border="0">
+    <tr>
+        <td>
+            <span id="ctrl_1535_lblDate" class="NormalBold">Data</span>
+        </td>
+        <td>
+            <table id="ctrl_1535_tbxDate" cellpadding="0" cellspacing="0" valign="middle" style="display:inline-block;">
+                <tr>
+                    <td><span id="ctrl_1535_tbxDate_mevtbxtbxDate" style="display:none;"></span><input name="ctrl_1535$tbxDate$tbxtbxDate" type="text" value="2018-05-07" id="ctrl_1535_tbxDate_tbxtbxDate" style="width:75px;" /><input type="hidden" name="ctrl_1535$tbxDate$meetbxDate_ClientState" id="ctrl_1535_tbxDate_meetbxDate_ClientState" /></td>
+                    <td><input type="image" name="ctrl_1535$tbxDate$imgtbxDate" id="ctrl_1535_tbxDate_imgtbxDate" src="Images/1/Icons/Calendar.gif" alt="Pokaż kalendarz" style="margin-left:2px;cursor:pointer;" /></td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <a id="ctrl_1535_lbnChoose" class="round" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctrl_1535$lbnChoose&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))"><span>Wybierz</span></a>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3" style="padding-bottom:5px;padding-top:5px">
+            <span id="ctrl_1535_lblDateInfo">poniedziałek, 7 maj 2018</span>
+        </td>
+    </tr>
+</table>
+<table cellspacing="0" cellpadding="2" width="100%" border="0" class="rTop">
+    <tr>
+        <td style="width: 33%;">
+            <a id="ctrl_1535_lbnDayPrev" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctrl_1535$lbnDayPrev&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Dzień poprzedni</a>
+        </td>
+        <td align="center" style="width: 33%;">
+            <a id="ctrl_1535_lbnToday" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctrl_1535$lbnToday&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Dziś</a>
+        </td>
+        <td align="right" style="width: 33%;">
+            <a id="ctrl_1535_lbnDayNext" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctrl_1535$lbnDayNext&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Dzień następny</a>
+        </td>
+    </tr>
+</table>
+<table id="ctrl_1535_tblEvents" class="rTable" cellspacing="0" cellpadding="0" width="100%" border="1">
+    <tr>
+        <td width="1%" class="tt">&nbsp;</td>
+        <td width="25%" class="pp tt xx NormalBold" onmouseover="this.style.backgroundColor=&#39;#FFB3B3&#39;" onmouseout="this.style.backgroundColor=&#39;&#39;"><table width="100%"><tr><td width="99%" class="b" align="center">KIWI / KIWI (sala k. sprzedaży) - 6 osobowa</td><td align="right"><a href="L.aspx?A=L&L=R-2&PageId=888&ModuleId=1060&ResourceId=40&DateX=2018-05-07"><img border="0" src="http://intranet.medicover.pl/Images/47/Icons/cal7.gif"></a></td></tr><tr><td colspan="2" align="center"><img class="oimage" src="LE.aspx?L=F&W=128&H=96&F=8080" /></td></tr></table></td>
+        <td width="25%" class="pp tt xx NormalBold" onmouseover="this.style.backgroundColor=&#39;#FFB3B3&#39;" onmouseout="this.style.backgroundColor=&#39;&#39;"><table width="100%"><tr><td width="99%" class="b" align="center">MALINA / RASPBERRY (sala k. finansów) - 8 osobowa</td><td align="right"><a href="L.aspx?A=L&L=R-2&PageId=888&ModuleId=1060&ResourceId=41&DateX=2018-05-07"><img border="0" src="http://intranet.medicover.pl/Images/47/Icons/cal7.gif"></a></td></tr><tr><td colspan="2" align="center"><img class="oimage" src="LE.aspx?L=F&W=128&H=96&F=8081" /></td></tr></table></td>
+        <td width="25%" class="pp tt xx NormalBold" onmouseover="this.style.backgroundColor=&#39;#FFB3B3&#39;" onmouseout="this.style.backgroundColor=&#39;&#39;"><table width="100%"><tr><td width="99%" class="b" align="center">ARBUZ / WATERMELON (sala k. DOKK) - 8 osobowa z rzutnikiem</td><td align="right"><a href="L.aspx?A=L&L=R-2&PageId=888&ModuleId=1060&ResourceId=42&DateX=2018-05-07"><img border="0" src="http://intranet.medicover.pl/Images/47/Icons/cal7.gif"></a></td></tr><tr><td colspan="2" align="center"><img class="oimage" src="LE.aspx?L=F&W=128&H=96&F=8076" /></td></tr></table></td>
+        <td width="25%" class="pp tt xx NormalBold" onmouseover="this.style.backgroundColor=&#39;#FFB3B3&#39;" onmouseout="this.style.backgroundColor=&#39;&#39;"><table width="100%"><tr><td width="99%" class="b" align="center">JABŁKO / APPLE (sala k. telesales PHI) - 8 osobowa</td><td align="right"><a href="L.aspx?A=L&L=R-2&PageId=888&ModuleId=1060&ResourceId=43&DateX=2018-05-07"><img border="0" src="http://intranet.medicover.pl/Images/47/Icons/cal7.gif"></a></td></tr><tr><td colspan="2" align="center"><img class="oimage" src="LE.aspx?L=F&W=128&H=96&F=8083" /></td></tr></table></td>
+    </tr>
+    <tr>
+        <td align="right" rowspan="2" class="dd1 tt"><span class="dd">8</span><sup>00</sup></td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=40&amp;ReservationId=0&amp;DateX=8:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=41&amp;ReservationId=0&amp;DateX=8:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=42&amp;ReservationId=0&amp;DateX=8:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=43&amp;ReservationId=0&amp;DateX=8:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+    </tr>
+    <tr>
+        <td><div class="ovr"><div title="Kowalska Emilia spotkanie" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=40&ReservationId=89560&DateX=8:30&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 3)" onmouseout="ou1(this, 3)" class="ov" style="height:58px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Kowalska Emilia<br />spotkanie</div></div>&nbsp;</td>
+        <td><div class="ovr"><div title="Wrońska Justyna on-boarding" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=41&ReservationId=79868&DateX=8:30&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 17)" onmouseout="ou1(this, 17)" class="ov" style="height:331px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Wrońska Justyna<br />on-boarding</div></div>&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=42&amp;ReservationId=0&amp;DateX=8:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=43&amp;ReservationId=0&amp;DateX=8:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+    </tr>
+    <tr>
+        <td align="right" rowspan="2" class="dd1 tt"><span class="dd">9</span><sup>00</sup></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=42&amp;ReservationId=0&amp;DateX=9:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td><div class="ovr"><div title="Wasiak Karolina Spotkanie biuro prawne - Anna Głodek" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=43&ReservationId=89695&DateX=9:0&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 2)" onmouseout="ou1(this, 2)" class="ov" style="height:39px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Wasiak Karolina<br />Spotkanie biuro prawne - Anna Głodek</div></div>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=42&amp;ReservationId=0&amp;DateX=9:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td align="right" rowspan="2" class="dd1 tt"><span class="dd">10</span><sup>00</sup></td>
+        <td><div class="ovr"><div title="Czeczuk Barbara Status marketing" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=40&ReservationId=86532&DateX=10:0&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 4)" onmouseout="ou1(this, 4)" class="ov" style="height:78px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Czeczuk Barbara<br />Status marketing</div></div>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><div class="ovr"><div title="Zawadka Magdalena Agnieszka Werkowska" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=42&ReservationId=72162&DateX=10:0&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 4)" onmouseout="ou1(this, 4)" class="ov" style="height:78px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Zawadka Magdalena<br />Agnieszka Werkowska</div></div>&nbsp;</td>
+        <td><div class="ovr"><div title="Wieszczycki Michał Michał Wieszczycki" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=43&ReservationId=87780&DateX=10:0&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 7)" onmouseout="ou1(this, 7)" class="ov" style="height:136px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Wieszczycki Michał<br />Michał Wieszczycki</div></div>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td align="right" rowspan="2" class="dd1 tt"><span class="dd">11</span><sup>00</sup></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td align="right" rowspan="2" class="dd1 tt"><span class="dd">12</span><sup>00</sup></td>
+        <td><div class="ovr"><div title="Igielska Lidia Lidia" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=40&ReservationId=89047&DateX=12:0&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 2)" onmouseout="ou1(this, 2)" class="ov" style="height:39px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Igielska Lidia<br />Lidia</div></div>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><div class="ovr"><div title="Urbanek Paulina Omówienie raportów wstępnych przez ZSP" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=42&ReservationId=75566&DateX=12:0&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 2)" onmouseout="ou1(this, 2)" class="ov" style="height:39px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Urbanek Paulina<br />Omówienie raportów wstępnych przez ZSP</div></div>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td align="right" rowspan="2" class="dd1 tt"><span class="dd">13</span><sup>00</sup></td>
+        <td><div class="ovr"><div title="Igielska Lidia Lidia" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=40&ReservationId=89591&DateX=13:0&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 1)" onmouseout="ou1(this, 1)" class="ov" style="height:19px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Igielska Lidia<br />Lidia</div></div>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><div class="ovr"><div title="Borsuk Beata AX Procurement" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=42&ReservationId=88891&DateX=13:0&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 6)" onmouseout="ou1(this, 6)" class="ov" style="height:117px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Borsuk Beata<br />AX Procurement</div></div>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td><div class="ovr"><div title="Sznurowska Justyna spotkanie" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=40&ReservationId=89124&DateX=13:30&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 2)" onmouseout="ou1(this, 2)" class="ov" style="height:39px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Sznurowska Justyna<br />spotkanie</div></div>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=43&amp;ReservationId=0&amp;DateX=13:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+    </tr>
+    <tr>
+        <td align="right" rowspan="2" class="dd1 tt"><span class="dd">14</span><sup>00</sup></td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><div class="ovr"><div title="Werkowska Agnieszka Weekly FinOPS" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=43&ReservationId=89350&DateX=14:0&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 5)" onmouseout="ou1(this, 5)" class="ov" style="height:97px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Werkowska Agnieszka<br />Weekly FinOPS</div></div>&nbsp;</td>
+    </tr>
+    <tr>
+        <td><div class="ovr"><div title="Igielska Lidia Lidia" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=40&ReservationId=89592&DateX=14:30&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 1)" onmouseout="ou1(this, 1)" class="ov" style="height:19px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Igielska Lidia<br />Lidia</div></div>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td align="right" rowspan="2" class="dd1 tt"><span class="dd">15</span><sup>00</sup></td>
+        <td><div class="ovr"><div title="Sienkiewicz Aleksandra Ola Sienkiewicz" onclick="javascript:winOpen('http://intranet.medicover.pl/L.aspx?A=L&PageId=888&ModuleId=1060&L=R-3&ResourceId=40&ReservationId=89179&DateX=15:0&Date=20180507','350px','250px',0,1,1);" onmouseover="ov1(this, 2)" onmouseout="ou1(this, 2)" class="ov" style="height:39px;"><img src="http://intranet.medicover.pl/Images/47/icons/ring.gif" aling="absmiddle"> Sienkiewicz Aleksandra<br />Ola Sienkiewicz</div></div>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td align="right" rowspan="2" class="dd1 tt"><span class="dd">16</span><sup>00</sup></td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=40&amp;ReservationId=0&amp;DateX=16:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=42&amp;ReservationId=0&amp;DateX=16:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=40&amp;ReservationId=0&amp;DateX=16:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=42&amp;ReservationId=0&amp;DateX=16:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=43&amp;ReservationId=0&amp;DateX=16:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+    </tr>
+    <tr>
+        <td align="right" rowspan="2" class="dd1 tt"><span class="dd">17</span><sup>00</sup></td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=40&amp;ReservationId=0&amp;DateX=17:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=41&amp;ReservationId=0&amp;DateX=17:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=42&amp;ReservationId=0&amp;DateX=17:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=43&amp;ReservationId=0&amp;DateX=17:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+    </tr>
+    <tr>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=40&amp;ReservationId=0&amp;DateX=17:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=41&amp;ReservationId=0&amp;DateX=17:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=42&amp;ReservationId=0&amp;DateX=17:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=43&amp;ReservationId=0&amp;DateX=17:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+    </tr>
+    <tr>
+        <td align="right" rowspan="2" class="dd1 tt"><span class="dd">18</span><sup>00</sup></td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=40&amp;ReservationId=0&amp;DateX=18:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=41&amp;ReservationId=0&amp;DateX=18:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=42&amp;ReservationId=0&amp;DateX=18:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=43&amp;ReservationId=0&amp;DateX=18:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+    </tr>
+    <tr>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=40&amp;ReservationId=0&amp;DateX=18:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=41&amp;ReservationId=0&amp;DateX=18:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=42&amp;ReservationId=0&amp;DateX=18:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=43&amp;ReservationId=0&amp;DateX=18:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+    </tr>
+    <tr>
+        <td align="right" rowspan="2" class="dd1 tt"><span class="dd">19</span><sup>00</sup></td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=40&amp;ReservationId=0&amp;DateX=19:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=41&amp;ReservationId=0&amp;DateX=19:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=42&amp;ReservationId=0&amp;DateX=19:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=43&amp;ReservationId=0&amp;DateX=19:0&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+    </tr>
+    <tr>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=40&amp;ReservationId=0&amp;DateX=19:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=41&amp;ReservationId=0&amp;DateX=19:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=42&amp;ReservationId=0&amp;DateX=19:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+        <td onclick="javascript:winOpen(&#39;http://intranet.medicover.pl/L.aspx?A=L&amp;PageId=888&amp;ModuleId=1060&amp;L=R-1&amp;ResourceId=43&amp;ReservationId=0&amp;DateX=19:30&amp;Date=20180507&#39;,&#39;810px&#39;,&#39;550px&#39;,0,1,1);" class="am" onmouseover="ov(this)" onmouseout="ou(this)">&nbsp;</td>
+    </tr>
+</table>
+
+        |0|hiddenField|__EVENTTARGET||0|hiddenField|__EVENTARGUMENT||56|hiddenField|__VIEWSTATE|/wEPZwUPOGQ1YjNhNTMyZjhhNzQwJfKbLtwLu4Hjj+Oipomb2/IN1UY=|8|hiddenField|__VIEWSTATEGENERATOR|CA0B0334|0|asyncPostBackControlIDs|||0|postBackControlIDs|||168|updatePanelIDs||tctrl_pt_2$upError,ctrl_pt_2_upError,tctrl_1564$upError,ctrl_1564_upError,tctrl_1535$upR,ctrl_1535_upR,tctrl_1535$upError,ctrl_1535_upError,tctl09$upModal,ctl09_upModal|0|childUpdatePanelIDs|||27|panelsToRefreshIDs||ctrl_1535$upR,ctrl_1535_upR|2|asyncPostBackTimeout||90|25|formAction||./Default.aspx?PageId=888|56|pageTitle||Zasoby ogólne III piętro : Medicover Intranet 2 - Polska|58|arrayDeclaration|Page_Validators|document.getElementById("ctrl_1535_tbxDate_mevtbxtbxDate")|1098|scriptBlock|ScriptContentNoTags|if (window.__ExtendedControlCssLoaded == null || typeof window.__ExtendedControlCssLoaded == 'undefined') {    window.__ExtendedControlCssLoaded = new Array();}var controlCssLoaded = window.__ExtendedControlCssLoaded; var head = document.getElementsByTagName('HEAD')[0];if (head && !Array.contains(controlCssLoaded,'/WebResource.axd?d=S5yU7oBt-qStycSMXs9FCYf39Et04W2K8dIyDkOsLZFIWdnRYRNyK9y7_Ul8umVC-84kRNzUG0OtfiSJrq1GYTI_VMm1fRdIe2LSzSfMlCvqg_ZSUZZHVzFMPmsnuj0IBYKO3K-NzCp90l6ISRQZZwZntD01&t=635701353249768900')) {var linkElement = document.createElement('link');linkElement.type = 'text/css';linkElement.rel = 'stylesheet';linkElement.href = '/WebResource.axd?d=S5yU7oBt-qStycSMXs9FCYf39Et04W2K8dIyDkOsLZFIWdnRYRNyK9y7_Ul8umVC-84kRNzUG0OtfiSJrq1GYTI_VMm1fRdIe2LSzSfMlCvqg_ZSUZZHVzFMPmsnuj0IBYKO3K-NzCp90l6ISRQZZwZntD01&t=635701353249768900';head.appendChild(linkElement);controlCssLoaded.push('/WebResource.axd?d=S5yU7oBt-qStycSMXs9FCYf39Et04W2K8dIyDkOsLZFIWdnRYRNyK9y7_Ul8umVC-84kRNzUG0OtfiSJrq1GYTI_VMm1fRdIe2LSzSfMlCvqg_ZSUZZHVzFMPmsnuj0IBYKO3K-NzCp90l6ISRQZZwZntD01&t=635701353249768900');}|197|scriptBlock|ScriptPath|/ScriptResource.axd?d=nPSwX1iVwgt5USGYNG8kV1JKHy3dyJvNNULBlBbGSGeRkkrdLaiEev0o9NrzzrWuoJoW4ks56en-MV1wa-nFNfYHtN3Hsmw7Snfd5u_yx8aT9rXfO-GE2fCUrIqKDtfYGu4bmzZQhlBt5g3DN3TcU1g3tdc1&t=ffffffffa83fb62f|197|scriptBlock|ScriptPath|/ScriptResource.axd?d=yRvPhi1zQGihCZHpzqMjbLE4h_Asp3jEOtIq6Eedx-QjbJFw8-6eFuQqsB_CHk5lxamFHhruAiLp4K_HNzOkkZeWY4VfaCxBfBEr7y2fciX1WD2IdazHjaf37z7lxi-Zvs-s5-zpPQH4w0eh09k7DQsRmjI1&t=ffffffffdc32f924|176|scriptBlock|ScriptPath|/ScriptResource.axd?d=hkhuD7NlnsysMW6JrxY9MNSNFjs3iHBUrlAjVFR_-vx9h3KzUimsOnAEPkzFiXn5Vep7bopdxdGBzxdk--ORPDO-PTD4Az501PYyb0Iy-hJN77nS3DBvykAuTl1bLdkeXY91aw2&t=ffffffffdc32f924|176|scriptBlock|ScriptPath|/ScriptResource.axd?d=OtX2ywY02Dh4sz8X15Kpdg0Ts7VSCK3mqmExrS19nLkudAGwwu0Yqve84Q3mvsZ_sfovnkkN2F1g9oCjO6Hq4fDO7sVlXLD__mbk9GW46nP28lHtbhaYgJSm3OxzUTUmhszs0A2&t=ffffffffdc32f924|176|scriptBlock|ScriptPath|/ScriptResource.axd?d=iolE3UyIcjqM7zAAZ4bVLpT9t5IBzCGgLKsmw2WB6_ksy9IW-DJLvVKxArEHpZ5CgARwuPHNzIpNKUPwiBWCqriZvMcKbs64cbMo7vpU7dnJTyWrYP0VekNXYduaxXyxE_nsrA2&t=ffffffffdc32f924|176|scriptBlock|ScriptPath|/ScriptResource.axd?d=8aUPEpRL61Zz_q9EN0ON_8L4l1OhhauhiUXEKMs7_M6VSjy17QRdqaep829v_XsfcBv42sVm_yJGOcWMYwCmTDQbMdOHHRH1PxCPC5lrVz1CgwOalqTyeliWmdoc72l4Z5lrOQ2&t=ffffffffdc32f924|197|scriptBlock|ScriptPath|/ScriptResource.axd?d=LPnV082YmtLSz2mj_SN54_k4rLExC5xQNwSzF_Lr54J5-WXk4hKN8RGzgptQ_aQVckTk-_m1WOk5YXe-hOlAiFJGj5NlN9jmD-y94Lovw_ytcHwPoVteRO65OlbTrvQXg6PX_LLuADg-MN7JsAsvrmURyeg1&t=ffffffffdc32f924|197|scriptBlock|ScriptPath|/ScriptResource.axd?d=gQbUvy_GtD6CWvuANYcp2ub4C826YfSY-XwGZinycBm5ZT4Vz5U5FxgBsX48_hAqttUoqBC5VkfHRy5ZVQnSpzeIixrY8ns0-p4ZEKfW0BUMzxI5dWhNZxEe-YZg4kJB-_hhNhzVzN9Y3Z9BKTskK-p44LQ1&t=ffffffffdc32f924|197|scriptBlock|ScriptPath|/ScriptResource.axd?d=u5Rpdf1t123UiFnfM30-_T4MoYbFAw1LDlfz1ow1YnL0IBB7AU_q6Y7M6vA2swxqm9ZMtbKgOTntMkTlfB9Odc3BEM2-rrVbzmaA5hSrkcUgbriQKR8kWBEswCfHu-r1C-EsXlqJ9KCE65ZknFtQxmwcZC81&t=ffffffffdc32f924|176|scriptBlock|ScriptPath|/ScriptResource.axd?d=NWNTK8ozv8hdOuRDk2Ex1_658HsxyQ9wflsYqGWlPZGwSnmiIDBzCm_rUxDKSWiCDQUkZwa_tsQlBZHO3ETtge0BzHMAQ8VJP2-PaFXV02y9sILFiqAv5d2SXyrnNn4FhMS4uA2&t=ffffffffdc32f924|197|scriptBlock|ScriptPath|/ScriptResource.axd?d=360gqekCwrNzEOJ7PmZLAl3ZWQPkg5EE0JOd3O46pC_1wEZ-C_qvTLQtMtUZH3VrRkt1f1kxCSPMGZUaSfo5wD7ZDPvBUcikZhoVbiaNM_XopEK_GzEtD1PyGKaRsN9s92SRSnWFBt3hV3dLxjkmW2JF4yM1&t=ffffffffdc32f924|197|scriptBlock|ScriptPath|/ScriptResource.axd?d=yRvPhi1zQGihCZHpzqMjbLE4h_Asp3jEOtIq6Eedx-QjbJFw8-6eFuQqsB_CHk5lxamFHhruAiLp4K_HNzOkkZeWY4VfaCxBfBEr7y2fciX1WD2IdazHjaf37z7lxi-Zvs-s5-zpPQH4w0eh09k7DQsRmjI1&t=ffffffffdc32f924|197|scriptBlock|ScriptPath|/ScriptResource.axd?d=3goBreQ0LYtSbeG0TGHpwMeY5LBv568mK13NRCkhpS9baK8OLSSgOe5aZLCpcJjhLJIMr1bRgjkGxT7NiACvLT5h2OV9EdLQ0nU67IEKZqMgB94T7up-XlNMxE0FKR24SB82_vlVwPo4W-fNOl9Lyfoan2M1&t=ffffffffdc32f924|281|scriptStartupBlock|ScriptContentNoTags|
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        |184|scriptStartupBlock|ScriptContentNoTags|
+document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate'));
+}
+|249|scriptStartupBlock|ScriptContentNoTags|Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.CalendarBehavior, {"button":$get("ctrl_1535_tbxDate_imgtbxDate"),"format":"yyyy-MM-dd","id":"ctrl_1535_tbxDate_caltbxDate"}, null, null, $get("ctrl_1535_tbxDate_tbxtbxDate"));
+});
+|559|scriptStartupBlock|ScriptContentNoTags|Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.MaskedEditBehavior, {"Century":2000,"ClientStateFieldID":"ctrl_1535_tbxDate_meetbxDate_ClientState","CultureAMPMPlaceholder":"AM;PM","CultureCurrencySymbolPlaceholder":"zł","CultureDateFormat":"YMD","CultureDatePlaceholder":"-","CultureDecimalPlaceholder":",","CultureName":"pl-PL","CultureThousandsPlaceholder":" ","CultureTimePlaceholder":":","Mask":"9999/99/99","MaskType":1,"UserDateFormat":6,"id":"ctrl_1535_tbxDate_meetbxDate"}, null, null, $get("ctrl_1535_tbxDate_tbxtbxDate"));
+});
+|90|onSubmit||if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;|6|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['IsMaskedEdit']|"true"|6|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['ValidEmpty']|"true"|12|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['MaximumValue']|"2999-12-31"|12|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['MinimumValue']|"1901-01-01"|2|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['InitialValue']|""|2|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['ValidationExpression']|""|2|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['ClientValidationFunction']|""|30|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['TargetValidator']|"ctrl_1535_tbxDate_tbxtbxDate"|2|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['EmptyValueMessage']|""|2|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['EmptyValueText']|""|2|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['MaximumValueMessage']|""|2|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['MaximumValueText']|""|2|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['MinimumValueMessage']|""|2|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['MinimumValueText']|""|2|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['InvalidValueMessage']|""|2|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['InvalidValueText']|""|17|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['InvalidValueCssClass']|"MaskedEditError"|24|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['CssBlurNegative']|"MaskedEditBlurNegative"|17|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['CssFocus']|"MaskedEditFocus"|25|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['CssFocusNegative']|"MaskedEditFocusNegative"|2|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['TooltipMessage']|""|3|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['FirstMaskPosition']|"0"|3|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['DateSeparator']|"-"|14|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['DateFormat']|"YearMonthDay"|6|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['Century']|"2000"|25|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['evaluationfunction']|"MaskedEditValidatorDate"|4|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['LastMaskPosition']|"11"|30|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['controltovalidate']|"ctrl_1535_tbxDate_tbxtbxDate"|9|expando|document.getElementById('ctrl_1535_tbxDate_mevtbxtbxDate')['display']|"Dynamic"|

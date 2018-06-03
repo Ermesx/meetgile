@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  intranetcalendarreader.console:
+    image: intranetcalendarreader.console
+    build:
+      context: .
+      dockerfile: src\IntranetCalendarReader.Console\Dockerfile
